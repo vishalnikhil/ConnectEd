@@ -1,6 +1,10 @@
 import { Box, Grid, Card, CardContent, Typography, Button, Avatar, Divider, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import CheckIcon from '@mui/icons-material/Check';
+<<<<<<< HEAD
 import logo from '../assets/shrivats.png';
+=======
+import logo from '../assets/anurag.png';
+>>>>>>> f33526480171388912e332cc15212645b07a86f8
 
 const MentorSection = () => {
   return (
@@ -15,9 +19,15 @@ const MentorSection = () => {
                 alt="Mentor"
                 sx={{ width: 80, height: 80, margin: 'auto', mb: 2 }}
               />
+<<<<<<< HEAD
               <Typography variant="h6">Shrivats Mishra</Typography>
               <Typography variant="body2" color="textSecondary">
                 Noob Chess Player
+=======
+              <Typography variant="h6">Anurag Gupta</Typography>
+              <Typography variant="body2" color="textSecondary">
+                Senior Full Stack Developer
+>>>>>>> f33526480171388912e332cc15212645b07a86f8
               </Typography>
 
               <Divider sx={{ my: 2 }} />
