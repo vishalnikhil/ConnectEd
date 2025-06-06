@@ -5,11 +5,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Dashboard from "./pages/Dashboard"
 import LandingPage from './pages/LandingPage'
+import ResetPassword from "./pages/ResetPassword";
+import ChangePasswwordConfirm from "./components/ChangePasswordConfirm";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
     <>
-      <LandingPage/>
+      <SignUp/>
     </>
   );
 }
